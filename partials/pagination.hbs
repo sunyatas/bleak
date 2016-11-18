@@ -1,11 +1,11 @@
 <nav id="pagination" class="pagination" role="pagination">
 	<div class="inner">
 	    {{#if prev}}
-	        <a class="pagination-item pagination-next" href="{{page_url prev}}"><i class="icon-arrow-left"></i> <span>Newer Posts</span></a>
+	        <a class="pagination-item pagination-next" href="{{page_url prev}}"><i class="icon-arrow-left"></i> <span>最近的</span></a>
 	    {{/if}}
 	    <span class="pagination-info">第{{page}}页  共{{pages}}页</span>
 	    {{#if next}}
-	        <a class="pagination-item pagination-prev" href="{{page_url next}}"><span>Older Posts</span> <i class="icon-arrow-right"></i></a>
+	        <a class="pagination-item pagination-prev" href="{{page_url next}}"><span>之前的</span> <i class="icon-arrow-right"></i></a>
 	    {{/if}}
 	    <div class="clear"></div>
 	</div>
