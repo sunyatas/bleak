@@ -100,7 +100,7 @@ jQuery(function($) {
 			for (i = 1; i < lines; i++) {
 				numbers += '<span class="line">' + i + '</span>';
 			}
-			code.parent().addClass('codeblock').append('<div class="lines">' + numbers + '</div>');
+			// code.parent().addClass('codeblock').append('<div class="lines">' + numbers + '</div>');
 		});
 	}
 	highlight();
