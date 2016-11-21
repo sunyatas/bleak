@@ -69,40 +69,40 @@
     font-style: normal
 }
 
-@font-face {font-family: "iconfont";
-    src: url('../iconfont/iconfont.eot?t=1479698258773'); /* IE9*/
-    src: url('../iconfont/iconfont.eot?t=1479698258773#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../iconfont/iconfont.woff?t=1479698258773') format('woff'), /* chrome, firefox */
-    url('../iconfont/iconfont.ttf?t=1479698258773') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-    url('../iconfont/iconfont.svg?t=1479698258773#iconfont') format('svg'); /* iOS 4.1- */
-}
+/*@font-face {font-family: "iconfont";*/
+    /*src: url('../iconfont/iconfont.eot?t=1479698258773'); !* IE9*!*/
+    /*src: url('../iconfont/iconfont.eot?t=1479698258773#iefix') format('embedded-opentype'), !* IE6-IE8 *!*/
+    /*url('../iconfont/iconfont.woff?t=1479698258773') format('woff'), !* chrome, firefox *!*/
+    /*url('../iconfont/iconfont.ttf?t=1479698258773') format('truetype'), !* chrome, firefox, opera, Safari, Android, iOS 4.2+*!*/
+    /*url('../iconfont/iconfont.svg?t=1479698258773#iconfont') format('svg'); !* iOS 4.1- *!*/
+/*}*/
 
-.iconfont {
-    font-family:"iconfont" !important;
-    font-size:16px;
-    font-style:normal;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-stroke-width: 0.2px;
-    -moz-osx-font-smoothing: grayscale;
-}
+/*.iconfont {*/
+    /*font-family:"iconfont" !important;*/
+    /*font-size:16px;*/
+    /*font-style:normal;*/
+    /*-webkit-font-smoothing: antialiased;*/
+    /*-webkit-text-stroke-width: 0.2px;*/
+    /*-moz-osx-font-smoothing: grayscale;*/
+/*}*/
 
-[class^="icon-"]:before, [class*=" icon-"]:before {
-    font-family: "icons";
-    font-style: normal;
-    font-weight: normal;
-    speak: none;
-    display: inline-block;
-    text-decoration: inherit;
-    width: 1em;
-    margin-right: .2em;
-    text-align: center;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1em;
-    margin-left: .2em;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
-}
+/*[class^="icon-"]:before, [class*=" icon-"]:before {*/
+    /*font-family: "icons";*/
+    /*font-style: normal;*/
+    /*font-weight: normal;*/
+    /*speak: none;*/
+    /*display: inline-block;*/
+    /*text-decoration: inherit;*/
+    /*width: 1em;*/
+    /*margin-right: .2em;*/
+    /*text-align: center;*/
+    /*font-variant: normal;*/
+    /*text-transform: none;*/
+    /*line-height: 1em;*/
+    /*margin-left: .2em;*/
+    /*-webkit-font-smoothing: antialiased;*/
+    /*-moz-osx-font-smoothing: grayscale*/
+/*}*/
 
 .icon-star:before {
     content: '\e800'
@@ -144,9 +144,9 @@
     content: '\e80c'
 }
 
-.icon-github:before { content: "\e735"; }
+/*.icon-github:before { content: "\e735"; }*/
 
-.icon-weibo:before { content: "\e8de"; }
+/*.icon-weibo:before { content: "\e8de"; }*/
 
 body {
     font: 300 1em / 1.5em '微软雅黑', sans-serif;
