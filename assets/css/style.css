@@ -397,31 +397,31 @@ pre.codeblock code {
     /*background: #E1E2E6*/
 }
 
-pre.codeblock .lines {
-    position: absolute;
-    width: 3em;
-    height: 100%;
-    left: 0;
-    top: 0;
-    padding: 1.5em 0;
-    border-right: 1px solid #D4D5D9;
-    font-size: 1em;
-    line-height: 1.5em;
-    text-align: right;
-    box-sizing: border-box;
-    /*background: #E1E2E6;*/
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    cursor: default
-}
+/*pre.codeblock .lines {*/
+    /*position: absolute;*/
+    /*width: 3em;*/
+    /*height: 100%;*/
+    /*left: 0;*/
+    /*top: 0;*/
+    /*padding: 1.5em 0;*/
+    /*border-right: 1px solid #D4D5D9;*/
+    /*font-size: 1em;*/
+    /*line-height: 1.5em;*/
+    /*text-align: right;*/
+    /*box-sizing: border-box;*/
+    /*!*background: #E1E2E6;*!*/
+    /*-webkit-user-select: none;*/
+    /*-moz-user-select: none;*/
+    /*-ms-user-select: none;*/
+    /*user-select: none;*/
+    /*cursor: default*/
+/*}*/
 
-pre.codeblock .lines .line {
-    display: block;
-    padding-right: 0.5em;
-    color: #9D9FA6
-}
+/*pre.codeblock .lines .line {*/
+    /*display: block;*/
+    /*padding-right: 0.5em;*/
+    /*color: #9D9FA6*/
+/*}*/
 
 kbd {
     display: inline-block;
