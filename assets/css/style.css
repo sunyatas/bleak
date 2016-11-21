@@ -380,22 +380,22 @@ pre code, pre tt {
     background: transparent
 }
 
-/*pre.codeblock {*/
-    /*position: relative;*/
-    /*padding: 1em;*/
-    /*overflow: hidden*/
-/*}*/
+pre.codeblock {
+    position: relative;
+    padding: 1em;
+    overflow: hidden
+}
 
-/*pre.codeblock code {*/
-    /*display: block;*/
-    /*border: 0;*/
-    /*padding: 1.5em;*/
-    /*padding-left: 4em;*/
-    /*margin: -1em;*/
-    /*white-space: inherit;*/
-    /*overflow-x: scroll;*/
-    /*!*background: #E1E2E6*!*/
-/*}*/
+pre.codeblock code {
+    display: block;
+    border: 0;
+    padding: 1.5em;
+    padding-left: 4em;
+    margin: -1em;
+    white-space: inherit;
+    overflow-x: scroll;
+    /*background: #E1E2E6*/
+}
 
 /*pre.codeblock .lines {*/
     /*position: absolute;*/
