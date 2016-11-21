@@ -300,12 +300,13 @@ blockquote {
     margin: 2em auto;
     padding: 0 1em;
     box-sizing: border-box;
-    border-left: 0.25em solid #D4D5D9;
-    font-style: italic;
-    font-weight: 400;
+    border-left: 0.25em solid #ddd;
+    font-weight: 500;
     color: #595B66;
     background: transparent
 }
+/*    font-style: italic;
+*/
 
 blockquote * {
     margin: 1em auto
