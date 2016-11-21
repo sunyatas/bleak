@@ -394,7 +394,7 @@ pre.codeblock code {
     margin: -1em;
     white-space: inherit;
     overflow-x: scroll;
-    background: #E1E2E6
+    /*background: #E1E2E6*/
 }
 
 pre.codeblock .lines {
@@ -409,7 +409,7 @@ pre.codeblock .lines {
     line-height: 1.5em;
     text-align: right;
     box-sizing: border-box;
-    background: #E1E2E6;
+    /*background: #E1E2E6;*/
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
