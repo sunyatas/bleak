@@ -37,7 +37,7 @@ jQuery(function (a) {
             hljs.highlightBlock(c);
             var d = a(this), e = d.html().split(/\n/).length, f = [];
             for (b = 1; e > b; b++)f += '<span class="line">' + b + "</span>";
-            // d.parent().addClass("codeblock").append('<div class="lines">' + f + "</div>")
+            d.parent().addClass("codeblock").append('<div class="lines">' + f + "</div>")
         })
     }
 
