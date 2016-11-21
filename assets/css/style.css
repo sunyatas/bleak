@@ -339,7 +339,7 @@ mark {
     background-color: #FFC336
 }
 
-/*code, tt {
+code, tt {
     display: inline-block;
     position: relative;
     top: -1px;
@@ -353,7 +353,7 @@ mark {
     color: #000;
     font-weight: 400;
     border-radius: 2px
-}*/
+}
 
 pre {
     margin: 2em auto;
@@ -367,7 +367,7 @@ pre {
     box-sizing: border-box
 }
 
-/*pre code, pre tt {
+pre code, pre tt {
     position: static;
     top: auto;
     font-size: 1em;
@@ -378,15 +378,15 @@ pre {
     border: none;
     padding: 0;
     background: transparent
-}*/
+}
 
-/*pre.codeblock {
+pre.codeblock {
     position: relative;
     padding: 1em;
     overflow: hidden
-}*/
+}
 
-/*pre.codeblock code {
+pre.codeblock code {
     display: block;
     border: 0;
     padding: 1.5em;
@@ -395,9 +395,9 @@ pre {
     white-space: inherit;
     overflow-x: scroll;
     background: #E1E2E6
-}*/
+}
 
-/*pre.codeblock .lines {
+pre.codeblock .lines {
     position: absolute;
     width: 3em;
     height: 100%;
@@ -415,13 +415,13 @@ pre {
     -ms-user-select: none;
     user-select: none;
     cursor: default
-}*/
+}
 
-/*pre.codeblock .lines .line {
+pre.codeblock .lines .line {
     display: block;
     padding-right: 0.5em;
     color: #9D9FA6
-}*/
+}
 
 kbd {
     display: inline-block;
