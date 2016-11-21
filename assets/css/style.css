@@ -390,7 +390,7 @@ pre.codeblock code {
     display: block;
     border: 0;
     padding: 1.5em;
-    padding-left: 4em;
+    padding-left: 1em;
     margin: -1em;
     white-space: inherit;
     overflow-x: scroll;
