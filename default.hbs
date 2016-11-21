@@ -13,9 +13,8 @@
 	<link rel="stylesheet" type="text/css" href="{{asset "css/dependencies.css"}}" />
 	<link rel="stylesheet" type="text/css" href="{{asset "css/style.css"}}" />
 
-    {{# if post}}
-        <link rel="stylesheet" type="text/css" href="/assets/css/prism.css" />
-    {{/if}}
+    {{! highlight.js }}
+    <link rel="stylesheet" type="text/css" href="{{asset "css/highlight/default.css"}}" />
 
 	{{ghost_head}}
 </head>
@@ -60,5 +59,8 @@
 	
 	<script type="text/javascript" src="{{asset "js/dependencies.js"}}"></script>
 	<script type="text/javascript" src="{{asset "js/script.js"}}"></script>
+    {{! highlight.js }}
+    <script type="text/javascript" src="{{asset "js/highlight.pack.js"}}"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </body>
 </html>
