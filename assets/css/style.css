@@ -309,7 +309,7 @@ blockquote {
 */
 
 blockquote * {
-    margin: 1em auto
+    margin: 0em auto
 }
 
 blockquote *:first-child {
