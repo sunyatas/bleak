@@ -380,11 +380,11 @@ pre code, pre tt {
     background: transparent
 }
 
-pre.codeblock {
-    position: relative;
-    padding: 1em;
-    overflow: hidden
-}
+/*pre.codeblock {*/
+    /*position: relative;*/
+    /*padding: 1em;*/
+    /*overflow: hidden*/
+/*}*/
 
 pre.codeblock code {
     display: block;
