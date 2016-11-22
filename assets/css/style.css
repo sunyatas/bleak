@@ -1094,17 +1094,17 @@ body {
 }
 
 #header .header-cover {
-    position: absolute;
+    position: fixed;
     width: 100%;
-    height: 100%;
+    height: 250px;
     top: 0;
     left: 0;
     margin-top: -4em;
     padding: 4em 0;
     /*background: no-repeat fixed center 100% / cover;*/
     z-index: 1;
-    background-size: contain;
-    background-attachment: fixed;
+    background-size: cover;
+
 }
 
 #header .header-cover:before {
