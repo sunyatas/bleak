@@ -1746,7 +1746,7 @@ body {
     border: 1px solid #36D995;
     box-shadow: 0 0 0 0 transparent;
     transition: all ease-out 0.1s;
-    /*background: #F2F3F5*/
+    background: #ffffff
 }
 
 @media only screen and (max-width: 30em) {
