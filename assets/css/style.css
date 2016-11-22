@@ -386,6 +386,8 @@ pre.codeblock {
     overflow: hidden
 }
 
+.lines{display: none}
+
 pre.codeblock code {
     display: block;
     border: 0;
