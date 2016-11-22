@@ -108,9 +108,9 @@ p {
 	margin: 0.3em auto;
 }
 
-ul {
-	list-style: none;
-}
+//ul {
+//	list-style: none;
+//}
 li {
 	position: relative;
 }
@@ -127,7 +127,7 @@ ol > li:before {
 }
 ul > li:before {
 	margin-top: 0.125em;
-	content: '*';
+	//content: '*';
 }
 ol {
 	list-style-type: none;
