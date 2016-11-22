@@ -1,66 +1,84 @@
 # Bleak
 
-An elegant AJAX driven theme for [Ghost](http://github.com/tryghost/ghost/) by [Peter Amende](http://zutrinken.com/).
+
+> 感谢Peter Amende的主题[bleak](https://github.com/zutrinken/bleak)，本主题由此改造而成。
 
 ***
 
-_**Hint:** This theme works with AJAX, so it won’t work with multiple domains properly! Use redirects to only one domain instead. Also make sure you haven’t jQuery injected in your footer due to [Ghosts migration method](http://dev.ghost.org/no-more-jquery/). This can break the layout!_
 
-## Demo
+# 介绍
 
-* [Blog](http://bleak.zutrinken.com)
-* [Post](http://bleak.zutrinken.com/demo)
-* [Tags](http://bleak.zutrinken.com/tag/general)
-* [Author](http://bleak.zutrinken.com/author/zutrinken)
 
-## Features
+###我对原主题的改动
 
-* Responsive layout
-* Blog navigation
-* Post navigation
-* Cover images for blog, tag and author archives
-* Featured posts style
-* Automatic code syntax highlight and line numbers
-* Disqus support
-* Sharing buttons
+ - 修改字体，使其适应中文版ghost
+ - 使用 [highlight.js](https://highlightjs.org/) 实现代码高亮
+ - 使用 [iconfont](http://www.iconfont.cn/plus)添加github和微博图标
+ - 修改原主题滚动视差卡顿失效的bug
+ - 将一些指示修改成符合中文语境
 
-## Setup
+可以访问我的博客查看[demo](http://sunchen.com.cn/)
 
-To enable [Disqus](https://disqus.com/) comments go to your blogs code injection settings and add `<script>var disqus="YOUR_DISQUS_SHORTNAME";</script>` to your blog header.
+##安装
 
-## Development
+首先确保你的服务器已经安装了 Git
 
-Install [Grunt](http://gruntjs.com/getting-started/):
+进入 ghost 根目录下的 themes 文件夹(`ghost/content/themes`)，然后运行以下命令：
 
-	npm install -g grunt-cli
-	
-Install Grunt modules:
+```bash
+git clone https://github.com/sunchen1996/bleak-master
+```
 
-	npm install
+重启 ghost 服务，进入后台就可以看到 bleak这个主题了。
 
-Install [Bower](http://bower.io):
+## 更新
 
-	npm install -g bower
+在 `themes/bleak-master` 目录下执行：
 
-Install Bower components:
+```bash
+git pull origin
+``` 
 
-	bower install
+## 自定义
+我对原主题做了一些改动，主要有：
 
-Build Grunt project:
+### 代码高亮
 
-	grunt
+采用 [highlight.js](https://highlightjs.org/) 做代码高亮，只需要修改 `default.hbs` 中的主题即可，默认采用 tomorrow 主题：
 
-Distribute Grunt project:
+```
+<link rel="stylesheet" type="text/css" href="{{asset "css/highlight/tomorrow.css"}}" />
+```
 
-	grunt build
+### 社交按钮与图标
 
-## Copyright & License
+采用 [iconfont](http://www.iconfont.cn/plus)的图标字体来展示社交按钮，请参考我的 `css/style.css` 文件中的代码：
 
-Copyright (C) 2015-2016 Peter Amende - Released under the MIT License.
+```html
+@font-face {font-family: "iconfont";
+    src: url('../iconfont/iconfont.eot?t=1479649402048'); /* IE9*/
+    src: url('../iconfont/iconfont.eot?t=1479649402048#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../iconfont/iconfont.woff?t=1479649402048') format('woff'), /* chrome, firefox */
+    url('../iconfont/iconfont.ttf?t=1479649402048') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+    url('../iconfont/iconfont.svg?t=1479649402048#iconfont') format('svg'); /* iOS 4.1- */
+}
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+```
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+如果你需要使用别的图片，只要去 [iconfont](http://www.iconfont.cn/plus)查找即可。
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+
+
+##License
+
+MIT © [sunchen](http://sunchen.com.cn)

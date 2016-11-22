@@ -155,7 +155,7 @@
 
 body {
     font: 300 1em / 1.5em '微软雅黑', sans-serif;
-    color: #595B66
+    color: #555
 }
 
 ::-moz-selection, ::-moz-selection {
@@ -301,8 +301,8 @@ blockquote {
     padding: 0 1em;
     box-sizing: border-box;
     border-left: 0.25em solid #ddd;
-    font-weight: 500;
-    color: #595B66;
+    font-weight: 400;
+    color: #737580;
     background: transparent
 }
 /*    font-style: italic;
@@ -675,7 +675,7 @@ body {
 
 #nav {
     position: relative;
-    background: #fff;
+    background: #f5f5f5;
     z-index: 70;
     transition: all ease-out 0.4s;
     -webkit-transform: translate3d(0, 0, 0);
@@ -1177,7 +1177,8 @@ body {
 
 .post {
     position: relative;
-    z-index: 20
+    z-index: 20;
+    background: white;
 }
 
 .post .post-image {
@@ -1741,7 +1742,7 @@ body {
     border: 1px solid #36D995;
     box-shadow: 0 0 0 0 transparent;
     transition: all ease-out 0.1s;
-    background: #F2F3F5
+    /*background: #F2F3F5*/
 }
 
 @media only screen and (max-width: 30em) {
