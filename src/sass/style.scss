@@ -419,6 +419,10 @@ body {
   padding: 0 1em;
 }
 
+.white_bg{
+  background: white;
+}
+
 #wrapper {
   position: relative;
   box-sizing: border-box;
@@ -1078,7 +1082,7 @@ body {
 .post {
   position: relative;
   z-index: 20;
-  background: white;
+  //background: white;
   .post-image {
     display: block;
     margin: 0;
