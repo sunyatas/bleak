@@ -157,59 +157,59 @@ body {
     font: 300 1em / 1.5em '微软雅黑', sans-serif;
     color: #555;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 400
 }
 
 ::-moz-selection, ::-moz-selection {
     color: #222;
     background: #D6EDFF;
-    text-shadow: none;
+    text-shadow: none
 }
 
 ::-moz-selection, ::selection {
     color: #222;
     background: #D6EDFF;
-    text-shadow: none;
+    text-shadow: none
 }
 
 a {
     color: inherit;
     text-decoration: none;
     font-weight: 400;
-    transition: all ease-out 0.2s;
+    transition: all ease-out 0.2s
 }
 
 a:hover, a:focus {
-    color: #1F2026;
+    color: #1F2026
 }
 
 .post-content a {
-    border-bottom: 1px solid #36D995;
+    border-bottom: 1px solid #36D995
 }
 
 .post-content a:hover, .post-content a:focus {
-    border-color: #2DB77E;
+    border-color: #2DB77E
 }
 
 h1, h2, h3, h4, h5, h6 {
     text-rendering: optimizeLegibility;
-    color: #1F2026;
+    color: #1F2026
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-    font-weight: inherit;
+    font-weight: inherit
 }
 
 h1 {
     font-size: 2em;
     line-height: 1em;
-    margin: 2em 0 -0.5em;
+    margin: 2em 0 -0.5em
 }
 
 h2 {
     font-size: 1.75em;
     line-height: 1.143em;
-    margin: 2.286em 0 -0.571em;
+    margin: 2.286em 0 -0.571em
 }
 
 h3 {
@@ -225,7 +225,7 @@ h4 {
 }
 
 p {
-    margin: 0.7em auto;
+    margin: 0.7em auto
 }
 
 /*ul {*/
@@ -233,7 +233,7 @@ p {
 /*}*/
 
 li {
-    position: relative;
+    position: relative
 }
 
 ul > li:before, ol > li:before {
@@ -244,7 +244,7 @@ ul > li:before, ol > li:before {
     font-weight: 400;
     line-height: 1.5em;
     text-align: right;
-    color: #1F2026;
+    color: #1F2026
 }
 
 ul > li:before {
@@ -254,26 +254,26 @@ ul > li:before {
 
 ol {
     list-style-type: none;
-    counter-reset: item;
+    counter-reset: item
 }
 
 ol > li:before {
     content: counter(item) ". " !important;
-    counter-increment: item;
+    counter-increment: item
 }
 
 ol, ul {
     padding-left: 3em;
-    margin: 2em auto;
+    margin: 2em auto
 }
 
 ol ol, ol ul, ul ol, ul ul {
     padding-left: 1.5em;
-    margin: 1em auto;
+    margin: 1em auto
 }
 
 dl {
-    margin: 2em auto;
+    margin: 2em auto
 }
 
 dl dt {
@@ -281,12 +281,12 @@ dl dt {
     line-height: 1.143em;
     font-weight: 700;
     margin-bottom: 0.571em;
-    color: #1F2026;
+    color: #1F2026
 }
 
 dl dd {
     margin-left: 1em;
-    margin-bottom: 1.5em;
+    margin-bottom: 1.5em
 }
 
 hr {
@@ -295,7 +295,7 @@ hr {
     margin: 2em 0;
     padding: 0;
     background: #E1E2E6;
-    border: 0;
+    border: 0
 }
 
 blockquote {
@@ -305,40 +305,40 @@ blockquote {
     border-left: 0.25em solid #ddd;
     font-weight: 400;
     color: #737580;
-    background: transparent;
+    background: transparent
 }
 /*    font-style: italic;
 */
 
 blockquote * {
-    margin: 0.5em auto;
+    margin: 0.5em auto
 }
 
 blockquote *:first-child {
-    margin-top: 0;
+    margin-top: 0
 }
 
 blockquote *:last-child {
-    margin-bottom: 0;
+    margin-bottom: 0
 }
 
 em, i {
     font-weight: 400;
     font-style: italic;
-    color: #363740;
+    color: #363740
 }
 
 strong, b {
     font-weight: 700;
-    color: #363740;
+    color: #363740
 }
 
 small {
-    font-size: 0.9em;
+    font-size: 0.9em
 }
 
 mark {
-    background-color: #FFC336;
+    background-color: #FFC336
 }
 
 code, tt {
@@ -354,7 +354,7 @@ code, tt {
     background: #E1E2E6;
     color: #000;
     font-weight: 400;
-    border-radius: 2px;
+    border-radius: 2px
 }
 
 /*pre {*/
@@ -379,13 +379,13 @@ pre code, pre tt {
     vertical-align: inherit;
     border: none;
     padding: 0;
-    background: transparent;
+    background: transparent
 }
 
 pre.codeblock {
     position: relative;
     padding: 1em;
-    overflow: hidden;
+    overflow: hidden
 }
 
 .lines{display: none}
@@ -438,7 +438,7 @@ kbd {
     font-weight: bold;
     background: #F2F3F5;
     border-radius: 4px;
-    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 1px 0 0 #fff inset;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 1px 0 0 #fff inset
 }
 
 table {
@@ -446,7 +446,7 @@ table {
     max-width: 100%;
     margin: 2em 0;
     background-color: transparent;
-    border: 1px solid #E1E2E6;
+    border: 1px solid #E1E2E6
 }
 
 table th, table td {
@@ -454,7 +454,7 @@ table th, table td {
     padding: 1em;
     line-height: 1em;
     text-align: left;
-    border: 1px solid #E1E2E6;
+    border: 1px solid #E1E2E6
 }
 
 table th {
@@ -462,41 +462,41 @@ table th {
     font-size: 0.75em;
     line-height: 1.334em;
     padding: 1.334em;
-    color: #1F2026;
+    color: #1F2026
 }
 
 img {
     display: block;
     max-width: 100%;
     height: auto;
-    margin: 2.5em auto;
+    margin: 2.5em auto
 }
 
 iframe {
-    margin: 2.5em auto;
+    margin: 2.5em auto
 }
 
 .fluid-width-video-wrapper {
-    margin: 2.5em auto;
+    margin: 2.5em auto
 }
 
 .fluid-width-video-wrapper iframe {
-    margin: auto;
+    margin: auto
 }
 
 #nprogress .bar {
     background: #36D995 !important;
-    height: 3px !important;
+    height: 3px !important
 }
 
 #nprogress .bar .peg {
-    box-shadow: none !important;
+    box-shadow: none !important
 }
 
 #nprogress .spinner {
     display: none !important;
     top: 50% !important;
-    right: 50% !important;
+    right: 50% !important
 }
 
 #nprogress .spinner .spinner-icon {
@@ -504,26 +504,26 @@ iframe {
     height: 4em !important;
     margin: -4em -4em 0 0 !important;
     border-top-color: #36D995 !important;
-    border-left-color: #36D995 !important;
+    border-left-color: #36D995 !important
 }
 
 body {
-    background: #fff;
+    background: #fff
 }
 
 .menu-initial body {
     transition: all ease-out 0.3s;
-    overflow: hidden;
+    overflow: hidden
 }
 
 .menu-active body {
-    background: #1F2026;
+    background: #1F2026
 }
 
 .inner {
     max-width: 48em;
     margin: 0 auto;
-    padding: 0 1em;
+    padding: 0 1em
 }
 
 .white_bg{
@@ -536,28 +536,28 @@ body {
     width: 100%;
     min-height: 100vh;
     padding-bottom: 6em;
-    background: #F2F3F5;
+    background: #F2F3F5
 }
 
 @-webkit-keyframes pushPrev {
     0% {
         -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
     }
     75% {
-        opacity: 1;
+        opacity: 1
     }
     100% {
         -webkit-transform: translate3d(-150%, 0, 0);
         transform: translate3d(-150%, 0, 0);
-        opacity: 0;
+        opacity: 0
     }
 }
 
 @keyframes pushPrev {
     0% {
         -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
     }
     75% {
         opacity: 1
