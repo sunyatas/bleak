@@ -155,7 +155,8 @@
 
 body {
     font: 300 1em / 1.5em '微软雅黑', sans-serif;
-    color: #555
+    color: #555;
+    font-size: 14px
 }
 
 ::-moz-selection, ::-moz-selection {
