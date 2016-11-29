@@ -336,7 +336,10 @@ small {
 }
 
 mark {
-    background-color: #FFC336
+    background-color: #ffe8b1;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 7px;
 }
 
 code, tt {
