@@ -31,7 +31,24 @@
             </footer>
             {{> comments}}
             <!----------------------------------------------------------------------------------------------------->
-
+            <!-- 多说评论框 start -->
+            <div class="ds-thread" data-thread-key="{{slug}}" data-title="{{title}}"
+                 data-url="{{url absolute='true'}}"></div>
+            <!-- 多说评论框 end -->
+            <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+            <script type="text/javascript">
+                var duoshuoQuery = {short_name: "sunghost"};
+                (function () {
+                    var ds = document.createElement('script');
+                    ds.type = 'text/javascript';
+                    ds.async = true;
+                    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+                    ds.charset = 'UTF-8';
+                    (document.getElementsByTagName('head')[0]
+                    || document.getElementsByTagName('body')[0]).appendChild(ds);
+                })();
+            </script>
+            <!-- 多说公共JS代码 end -->
             <!----------------------------------------------------------------------------------------------------->
 
 
@@ -43,7 +60,7 @@
 
         <nav class="post-nav">
             {{#next_post}}
-                <a class="post-nav-item post-nav-next" href="{{url absolute="true"}}">
+                <a class="post-nav-item post-nav-next" data-ajax="false" href="{{url absolute="true"}}">
                     <section class="post-nav-teaser">
                         <span class="post-nav-icon"><i class="icon-arrow-left"></i></span>
                         <span class="post-nav-info">
@@ -54,7 +71,7 @@
                 </a>
             {{/next_post}}
             {{#prev_post}}
-                <a class="post-nav-item post-nav-prev" href="{{url absolute="true"}}">
+                <a class="post-nav-item post-nav-prev" data-ajax="false" href="{{url absolute="true"}}">
                     <section class="post-nav-teaser">
                         <span class="post-nav-icon"><i class="icon-arrow-right"></i></span>
                         <span class="post-nav-info">

@@ -1984,9 +1984,9 @@
         etag: {},
         ajaxSettings: {
             url: vb,
-            type: "POST",
+            type: "GET",
             isLocal: ob.test(wb[1]),
-            global: false,
+            global: !0,
             processData: !0,
             async: !0,
             contentType: "application/x-www-form-urlencoded; charset=UTF-8",
