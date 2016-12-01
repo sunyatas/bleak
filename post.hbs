@@ -30,6 +30,7 @@
                 </div>
 
 
+
             </footer>
             {{> comments}}
 
@@ -40,14 +41,14 @@
 
 
             <!--<aside class="post-comments">-->
-            <!--<div id="disqus_thread"></div>-->
+                <!--<div id="disqus_thread"></div>-->
             <!--</aside>-->
 
         </div>
 
         <nav class="post-nav">
             {{#next_post}}
-                <a class="post-nav-item post-nav-next" href="{{url absolute="true"}}" data-ajax="false">
+                <a class="post-nav-item post-nav-next"  href="{{url absolute="true"}}" data-ajax="false">
                     <section class="post-nav-teaser">
                         <span class="post-nav-icon"><i class="icon-arrow-left"></i></span>
                         <span class="post-nav-info">
@@ -58,7 +59,7 @@
                 </a>
             {{/next_post}}
             {{#prev_post}}
-                <a class="post-nav-item post-nav-prev" href="{{url absolute="true"}}" data-ajax="false">
+                <a class="post-nav-item post-nav-prev"  href="{{url absolute="true"}}" data-ajax="false">
                     <section class="post-nav-teaser">
                         <span class="post-nav-icon"><i class="icon-arrow-right"></i></span>
                         <span class="post-nav-info">
@@ -74,11 +75,7 @@
 {{/post}}
 
 
-    var ass = document.getElementsByTagName("a");
-    for(var i=0;i
-    <ass.length;i++){
-    ass[i].setAttribute("target","_top");
-    }
+
 {{ghost_foot}}
 </div>
 
