@@ -46,14 +46,14 @@ jQuery(function (a) {
     }
 
     function g() {
-        // if ("undefined" != typeof disqus && document.getElementById("disqus_thread")) {
-        //     if (window.DISQUS)return DISQUS.reset({
-        //         reload: !0, config: function () {
-        //             this.page.identifier = location.pathname, this.page.url = location.origin + location.pathname
-        //         }
-        //     });
-        //     a.ajax({type: "GET", url: "//" + disqus + ".disqus.com/embed.js", dataType: "script", cache: !0})
-        // } else a(".post-comments").css({display: "none"})
+        if ("undefined" != typeof disqus && document.getElementById("disqus_thread")) {
+            if (window.DISQUS)return DISQUS.reset({
+                reload: !0, config: function () {
+                    this.page.identifier = location.pathname, this.page.url = location.origin + location.pathname
+                }
+            });
+            a.ajax({type: "GET", url: "//" + disqus + ".disqus.com/embed.js", dataType: "script", cache: !0})
+        } else a(".post-comments").css({display: "none"})
     }
 
     function h() {
