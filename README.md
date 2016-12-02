@@ -16,6 +16,7 @@
  - 使用 [iconfont](http://www.iconfont.cn/plus)添加github和微博图标
  - 修改原主题滚动视差卡顿失效的bug
  - 将一些指示修改成符合中文语境
+ - 添加多说评论
 
 可以访问我的博客查看[demo](http://sunchen.com.cn/)
 
@@ -74,6 +75,13 @@ git pull origin
 ```
 
 如果你需要使用别的图片，只要去 [iconfont](http://www.iconfont.cn/plus)查找即可。
+
+
+###多说
+在`default.hbs`文件中
+```
+    <script>var duoshuoQuery = {short_name:"替换为你自己的多说二级域名"};</script>
+```
 
 
 
