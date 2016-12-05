@@ -1112,7 +1112,7 @@ body {
 #header .header-cover {
     position: fixed;
     width: 100%;
-    height: 50%;
+    height: 100%;
     top: 0;
     left: 0;
     margin-top: -4em;
@@ -1267,6 +1267,7 @@ body {
     padding: 0.5em;
     z-index: 10;
     margin-top: 100%;
+    /*添加了margin-top: 100%;*/
 }
 
 @-webkit-keyframes fade {
