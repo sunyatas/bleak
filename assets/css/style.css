@@ -1265,7 +1265,8 @@ body {
     max-width: 1200px;
     margin: 0 auto 4em;
     padding: 0.5em;
-    z-index: 10
+    z-index: 10;
+    margin-top: 100%;
 }
 
 @-webkit-keyframes fade {
