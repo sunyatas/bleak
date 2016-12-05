@@ -1021,7 +1021,9 @@ body {
 }
 
 #header.has-cover .header-name {
-    color: #fff
+    /*color: #fff*/
+    color: black;
+
 }
 
 #header .header-description {
@@ -1030,7 +1032,7 @@ body {
     color: #9D9FA6;
     position: relative;
     font-weight: 300;
-    white-space:pre-wrap;
+    white-space: pre-wrap;
 }
 
 #header .header-description:after {
@@ -1045,11 +1047,13 @@ body {
 }
 
 #header.has-cover .header-description {
-    color: #fff
+    /*color: #fff*/
+    color: #000000
 }
 
 #header.has-cover .header-description:after {
-    background: #fff
+    /*background: #fff*/
+    color: #000000
 }
 
 #header .header-image {
@@ -1130,7 +1134,7 @@ body {
     height: 100%;
     left: 0;
     top: 0;
-    background: rgba(0, 0, 0, 0.2)
+    /*background: rgba(0, 0, 0, 0.2)*/
 }
 
 #header .header-cover:after {
