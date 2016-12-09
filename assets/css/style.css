@@ -1023,8 +1023,8 @@ body {
 }
 
 #header.has-cover .header-name {
-    /*color: #fff*/
-    color: #C35D46;
+    color: #fff
+    /*color: #C35D46;*/
 
 }
 
@@ -1049,8 +1049,8 @@ body {
 }
 
 #header.has-cover .header-description {
-    /*color: #fff*/
-    color: #fb7070
+    color: #fff
+    /*color: #fb7070*/
 }
 
 #header.has-cover .header-description:after {
