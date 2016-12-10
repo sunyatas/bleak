@@ -1273,7 +1273,7 @@ body {
     margin: 0 auto 4em;
     padding: 0.5em;
     z-index: 10;
-    margin-top: 5%;
+    /*margin-top: 5%;*/
 }
 
 @-webkit-keyframes fade {
