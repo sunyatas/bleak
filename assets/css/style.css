@@ -696,7 +696,7 @@ body {
 
 #nav {
     position: relative;
-    background: #f5f5f5;
+    background: #ffffff;
     z-index: 70;
     transition: all ease-out 0.4s;
     -webkit-transform: translate3d(0, 0, 0);
