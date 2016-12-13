@@ -527,7 +527,7 @@ body {
 .inner {
     max-width: 60em;
     margin: 0 auto;
-    padding: 0 1em;
+    /*padding: 0 1em;*/
     border-radius: 6px;
 }
 
@@ -670,7 +670,8 @@ body {
     transform: translate3d(0, 0, 0);
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    opacity: 1
+    opacity: 1;
+    padding: 1em;
 }
 
 .push-next #push {
