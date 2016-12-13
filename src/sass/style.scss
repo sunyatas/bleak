@@ -110,6 +110,14 @@ p {
   margin: 0.7em auto;
 }
 
+custom_title_img{
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  background-position: center;
+  background-size: cover;
+  height: 280px;
+}
+
 //ul {
 //	list-style: none;
 //}
@@ -1692,6 +1700,8 @@ body {
     }
   }
 }
+
+
 
 /* ==========================================================================
    Pagination
