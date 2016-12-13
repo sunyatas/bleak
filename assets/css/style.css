@@ -525,7 +525,7 @@ body {
 }
 
 .inner {
-    max-width: 60em;
+    max-width: 64em;
     margin: 0 auto;
     /*padding: 0 1em;*/
     border-radius: 6px;
