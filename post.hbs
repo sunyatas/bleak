@@ -5,14 +5,19 @@
     <main class="content" role="main">
     <article class="{{post_class}}">
     <div class="inner white_bg">
-        <div style="background-image: url('{{image}}');
-                border-top-left-radius: 6px;
-                border-top-right-radius: 6px;
-                background-position: center;
-                background-size: cover;
-                height: 280px">
 
-        </div>
+
+    {{#if image}}
+            <div style="background-image: url('{{image}}');
+                    border-top-left-radius: 6px;
+                    border-top-right-radius: 6px;
+                    background-position: center;
+                    background-size: cover;
+                    height: 280px">
+
+            </div>
+    {{/if}}
+
 
         <div id="push">
 
