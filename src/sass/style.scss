@@ -38,7 +38,7 @@ html {
 }
 
 body {
-  font: 300 1em / 1.5em '微软雅黑',sans-serif;
+  font: 300 1em / 1.5em '微软雅黑', sans-serif;
   color: #555;
   font-size: 14px;
   font-weight: 400;
@@ -110,13 +110,7 @@ p {
   margin: 0.7em auto;
 }
 
-custom_title_img{
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
-  background-position: center;
-  background-size: cover;
-  height: 280px;
-}
+
 
 //ul {
 //	list-style: none;
@@ -434,7 +428,7 @@ body {
   padding: 0 1em;
 }
 
-.white_bg{
+.white_bg {
   background: white;
 }
 
@@ -442,7 +436,6 @@ body {
   background: #BCBEB9;
   padding-bottom: 99px;
 }
-
 
 #wrapper {
   position: relative;
@@ -465,6 +458,14 @@ body {
   #wrapper {
 
   }
+}
+
+.custom_title_img {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  background-position: center;
+  background-size: cover;
+  height: 280px;
 }
 
 /* ==========================================================================
@@ -1700,8 +1701,6 @@ body {
     }
   }
 }
-
-
 
 /* ==========================================================================
    Pagination
