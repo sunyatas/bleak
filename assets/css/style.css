@@ -532,6 +532,9 @@ body {
 
 .white_bg {
     background: white;
+    border-radius: 6px;
+    box-shadow: 0px 0px 15px #828284;
+    margin-top: 6px;
 }
 
 .black_bg {
