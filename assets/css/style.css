@@ -528,7 +528,7 @@ body {
     max-width: 63em;
     margin: 0 auto;
     /*padding: 0 1em;*/
-    border-radius: 6px;
+    border-radius: 3px;
 }
 
 .white_bg {
@@ -1217,8 +1217,8 @@ body {
     display: block;
     margin: 0;
     padding: 0;
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
 }
 
 .post .post-image img {
