@@ -554,6 +554,16 @@ body {
     height: 280px;
 }
 
+.custom_title_text{
+    display:flex;
+    padding:24.72px;
+    align-item:flex-end;
+    line-height:40px ;
+    font-weight:400;
+    color: #fafafa;
+    text-shadow:1px 1px 8px #444;
+}
+
 #wrapper {
     position: relative;
     box-sizing: border-box;
