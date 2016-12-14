@@ -563,7 +563,7 @@ body {
 
 .custom_title_text {
     display: flex;
-    padding: 24.72px;
+    padding: 12px;
     line-height: 40px;
     font-weight: 400;
     color: #fafafa;
