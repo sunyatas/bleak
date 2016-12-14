@@ -218,7 +218,8 @@ h3 {
 h4 {
     font-size: 1.25em;
     line-height: 1.2em;
-    /*margin: 2.4em 0 -0.8em*/
+    /*margin: 1.25em 0.5em 1.25em 0.5em;*/
+    margin: 1.25em 2.5em 1.25em 2.5em;
 }
 
 p {
@@ -545,7 +546,6 @@ body {
 
 }
 
-
 .custom_title_img {
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
@@ -554,16 +554,15 @@ body {
     height: 280px;
 }
 
-.custom_title_text{
-    display:flex;
-    padding:24.72px;
-    align-item:flex-end;
-    line-height:40px ;
-    font-weight:400;
+.custom_title_text {
+    display: flex;
+    padding: 24.72px;
+    align-item: flex-end;
+    line-height: 40px;
+    font-weight: 400;
     color: #fafafa;
-    text-shadow:1px 1px 8px #444;
+    text-shadow: 1px 1px 8px #444;
 }
-
 
 #wrapper {
     position: relative;
@@ -1898,23 +1897,27 @@ body {
         padding: 0 !important
     }
 
-    .white_bg{
+    .white_bg {
         margin-top: 3px;
     }
 
-    #push{
+    #push {
         /*padding-right: 1em;*/
         /*padding-left: 1em;*/
         padding-bottom: 1em;
         padding-top: 1em;
     }
 
-    .post .post-header{
+    .post .post-header {
         padding: 4em 1em 0;
     }
 
 
+    h4{
+        margin: 1.25em 0.5em 1.25em 0.5em;
+    }
 
+    /**/
 
     .pagination .pagination-item i {
         font-size: 1.5em
