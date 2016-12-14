@@ -1905,17 +1905,14 @@ body {
 
     .white_bg {
         margin-top: 0px;
+        border-radius: 0px 0px 6px 6px;
     }
 
-    /*.custom_title_img {*/
-        /*border-top-left-radius: 0px;*/
-        /*border-top-right-radius: 0px;*/
-        /*display: flex;*/
-        /*align-items: flex-end;*/
-        /*cursor:pointer;*/
-        /*flex-grow: 1;*/
-        /*flex-direction: row;*/
-    /*}*/
+    .custom_title_img {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+
 
     #push {
         /*padding-right: 1em;*/
