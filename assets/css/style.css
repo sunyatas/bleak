@@ -556,6 +556,9 @@ body {
     height: 280px;
     display: flex;
     align-items: flex-end;
+    cursor:pointer;
+    flex-grow: 1;
+    flex-direction: row;
 }
 
 .custom_title_text {
@@ -1911,6 +1914,9 @@ body {
         border-top-right-radius: 0px;
         display: flex;
         align-items: flex-end;
+        cursor:pointer;
+        flex-grow: 1;
+        flex-direction: row;
     }
 
     #push {
