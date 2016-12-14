@@ -353,7 +353,8 @@ code, tt {
     font-family: 'Inconsolata', monospace;
     font-size: 0.875em;
     line-height: 1.143em;
-    white-space: pre;
+    white-space: normal;
+    word-break: break-all;
     background: #E1E2E6;
     color: #000;
     font-weight: 400;
@@ -1900,7 +1901,8 @@ body {
     .white_bg {
         margin-top: 0px;
     }
-    .custom_title_img{
+
+    .custom_title_img {
         border-top-left-radius: 0px;
         border-top-right-radius: 0px;
     }
