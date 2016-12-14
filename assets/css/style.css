@@ -1593,7 +1593,7 @@ body {
 }
 
 .post-footer {
-    margin: 4em 0
+    margin: 4em 2em;
 }
 
 .post-footer:after {
@@ -1930,7 +1930,11 @@ body {
         margin: 2em 1em;
     }
 
-    /**/
+    .post-footer{
+        margin: 4em 1em;
+    }
+
+    /*——————————————————————————————————————————————————————————————————————————————————————*/
     .pagination .pagination-item i {
         font-size: 1.5em
     }
