@@ -1909,6 +1909,8 @@ body {
     .custom_title_img {
         border-top-left-radius: 0px;
         border-top-right-radius: 0px;
+        display: flex;
+        align-items: flex-end;
     }
 
     #push {
