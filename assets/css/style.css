@@ -1294,7 +1294,8 @@ body {
 }
 
 .post .post-header {
-    padding: 4em 0 0;
+    /*padding: 4em 0 0;*/
+    padding: 4em 3em 0;
     margin-bottom: 3em
 }
 
@@ -1907,6 +1908,13 @@ body {
         padding-bottom: 1em;
         padding-top: 1em;
     }
+
+    .post .post-header{
+        padding: 4em 1em 0;
+    }
+
+
+
 
     .pagination .pagination-item i {
         font-size: 1.5em
