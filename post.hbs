@@ -8,15 +8,16 @@
 
 
     {{#if image}}
-            <!--<div class="custom_title_img"-->
-                 <!--style="background-image: url('{{image}}')">-->
-
-                <!--<h1 class="custom_title_text" ;>-->
-                    <!--{{{title}}}-->
-                <!--</h1>-->
-            <!--</div>-->
             <div class="custom_title_img"
-                 style="background-image: url('http://7xwgdu.com1.z0.glb.clouddn.com/normal_bg.jpg')">
+                 style="background-image: url('{{image}}')">
+
+                <h1 class="custom_title_text" ;>
+                    {{{title}}}
+                </h1>
+            </div>
+    {{else}}
+            <div class="custom_title_img"
+                 style="background-image: url('../bleak-master/assets/img/normal_bg.jpg')">
 
                 <h1 class="custom_title_text" ;>
                     {{{title}}}
