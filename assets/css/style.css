@@ -223,7 +223,7 @@ h4 {
 }
 
 p {
-    margin: 0.7em auto
+    margin: 0.7em 3em;
 }
 
 /*ul {*/
@@ -1915,6 +1915,10 @@ body {
 
     h4{
         margin: 1.25em 1em 1.25em 1em;
+    }
+
+    p{
+        margin: 0.7em 1em;
     }
 
     /**/
