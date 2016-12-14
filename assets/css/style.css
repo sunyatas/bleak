@@ -550,6 +550,7 @@ body {
 .custom_title_img {
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
+    position: relative;
     background-position: center;
     background-size: cover;
     height: 280px;
@@ -563,6 +564,7 @@ body {
     font-weight: 400;
     color: #fafafa;
     text-shadow: 1px 1px 8px #444;
+    position: absolute;
 }
 
 #wrapper {
