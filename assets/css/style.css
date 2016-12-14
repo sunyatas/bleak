@@ -206,7 +206,7 @@ h1 {
 h2 {
     font-size: 1.75em;
     line-height: 1.143em;
-    margin: 2.286em 0 -0.571em
+    margin: 1.5em 1.65em 1.5em;
 }
 
 h3 {
@@ -1912,6 +1912,10 @@ body {
         padding: 4em 1em 0;
     }
 
+    h2 {
+        margin: 1.5em 0.55em 1.5em;
+    }
+
     h3 {
         margin: 1.25em 0.7em 1em 0.7em;
     }
@@ -1919,8 +1923,6 @@ body {
     h4 {
         margin: 1.25em 0.8em 1.25em 0.8em;
     }
-
-
 
     p {
         margin: 0.7em 1em;
@@ -1930,7 +1932,7 @@ body {
         margin: 2em 1em;
     }
 
-    .post-footer{
+    .post-footer {
         margin: 4em 1em;
     }
 
