@@ -1898,7 +1898,11 @@ body {
     }
 
     .white_bg {
-        margin-top: 3px;
+        margin-top: 0px;
+    }
+    .custom_title_img{
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
     }
 
     #push {
