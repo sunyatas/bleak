@@ -564,12 +564,10 @@ body {
 .custom_title_text {
     display: flex;
     padding: 24.72px;
-    align-item: flex-end;
     line-height: 40px;
     font-weight: 400;
     color: #fafafa;
     text-shadow: 1px 1px 8px #444;
-    position: absolute;
 }
 
 #wrapper {
@@ -1909,15 +1907,15 @@ body {
         margin-top: 0px;
     }
 
-    .custom_title_img {
-        border-top-left-radius: 0px;
-        border-top-right-radius: 0px;
-        display: flex;
-        align-items: flex-end;
-        cursor:pointer;
-        flex-grow: 1;
-        flex-direction: row;
-    }
+    /*.custom_title_img {*/
+        /*border-top-left-radius: 0px;*/
+        /*border-top-right-radius: 0px;*/
+        /*display: flex;*/
+        /*align-items: flex-end;*/
+        /*cursor:pointer;*/
+        /*flex-grow: 1;*/
+        /*flex-direction: row;*/
+    /*}*/
 
     #push {
         /*padding-right: 1em;*/
