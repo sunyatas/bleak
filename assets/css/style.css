@@ -1035,14 +1035,14 @@ body {
 }
 
 #header .header-name {
-    font-weight: 700;
-    letter-spacing: -1px;
+    font-weight: 500;
+    /*letter-spacing: -1px;*/
     display: block;
     line-height: 1em;
     font-size: 2em;
     text-decoration: none;
     color: #1F2026;
-    padding: 0;
+    padding: 0 0 15px;
     margin: 0
 }
 
