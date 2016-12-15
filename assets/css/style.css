@@ -574,9 +574,10 @@ body {
     border-radius: 50%;
     width: 50px;
     margin: 0 auto;
-    border: 2px solid #cecece;
-    padding: 3px;
+    border: 2px solid white;
     display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
 }
 
 #wrapper {
@@ -585,7 +586,7 @@ body {
     width: 100%;
     min-height: 100vh;
     padding-bottom: 6em;
-    background: #F2F3F5
+    background: #F2F3F5;
 }
 
 @-webkit-keyframes pushPrev {
