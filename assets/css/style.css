@@ -556,7 +556,7 @@ body {
     height: 280px;
     display: flex;
     align-items: flex-end;
-    cursor:pointer;
+    cursor: pointer;
     flex-grow: 1;
     flex-direction: row;
 }
@@ -568,6 +568,14 @@ body {
     font-weight: 400;
     color: #fafafa;
     text-shadow: 1px 1px 8px #444;
+}
+
+.custom_author_icon {
+    border-radius: 50%;
+    width: 100px;
+    margin: 0 auto;
+    border: 2px solid #cecece;
+    padding: 3px;
 }
 
 #wrapper {
@@ -1911,7 +1919,6 @@ body {
         border-top-left-radius: 0px;
         border-top-right-radius: 0px;
     }
-
 
     #push {
         /*padding-right: 1em;*/
