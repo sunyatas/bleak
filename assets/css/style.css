@@ -572,7 +572,8 @@ body {
 
 .custom_author_icon {
     border-radius: 50%;
-    width: 50px;
+    width: 45px;
+    height: 45px;
     margin: 0 auto;
     border: 2px solid white;
     display: inline-block;
