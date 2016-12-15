@@ -1290,16 +1290,16 @@ body {
     line-height: 1.375em;
     font-weight: 800;
     text-indent: -1px;
-    /*margin: 0.25em 0 0.75em*/
+    margin: 0.25em 0 0.75em
 }
 
 .post .post-title:before {
     content: '';
     position: absolute;
     left: 0;
-    /*bottom: -0.334em;*/
+    bottom: -0.334em;
     width: 1em;
-    /*margin-bottom: -2px;*/
+    margin-bottom: -2px;
     border-bottom: 4px solid #36D995
 }
 
