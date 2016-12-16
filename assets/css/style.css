@@ -584,6 +584,14 @@ body {
     float: left;
 }
 
+.custom_title_info{
+    display:flex;
+    flex-direction: column;
+    vertical-align: middle;
+    float: left;
+}
+
+
 #wrapper {
     position: relative;
     box-sizing: border-box;
