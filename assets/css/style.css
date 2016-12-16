@@ -712,7 +712,7 @@ body {
     transform-style: preserve-3d;
     opacity: 1;
     /*padding-right: 3em;*/
-    /*padding-left: 3em;*/
+    padding-left: 1em;
     padding-bottom: 3em;
     padding-top: 1em;
 }
@@ -1930,8 +1930,9 @@ body {
     #push {
         /*padding-right: 1em;*/
         /*padding-left: 1em;*/
-        padding-bottom: 3em;
-        padding-top: 1em;
+        padding-left: 0em;
+        /*padding-bottom: 3em;*/
+        /*padding-top: 1em;*/
     }
 
     .post .post-header {
