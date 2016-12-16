@@ -231,7 +231,8 @@ p {
 /*}*/
 
 li {
-    position: relative
+    position: relative;
+    margin-top: 10px;
 }
 
 ul > li:before, ol > li:before {
