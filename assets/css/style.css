@@ -591,6 +591,10 @@ body {
     float: left;
 }
 
+.post-author{
+    text-decoration: underline;
+}
+
 
 #wrapper {
     position: relative;
