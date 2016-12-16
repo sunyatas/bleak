@@ -581,6 +581,7 @@ body {
     display: inline-block;
     vertical-align: middle;
     margin-right: 10px;
+    float: left;
 }
 
 #wrapper {
