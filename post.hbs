@@ -31,7 +31,7 @@
 
         <div id="push">
 
-            <header class="post-header">
+            <!--<header class="post-header">-->
 				<!--<span class="post-meta">-->
                     <!--<span ><img class="custom_author_icon" src="{{author.image}}"></span>-->
 
@@ -41,13 +41,25 @@
 
 				<!--</span>-->
                 <!--<div class="clear"></div>-->
+            <!--</header>-->
 
-                <div><img class="custom_author_icon" src="{{author.image}}"></div>
-                <div>
-                    <strong>{{author}}</strong>
-                    <span>{{date format="YYYY MMMDD HH:mm"}}</span>
+
+            <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+                <!-- Author Avatar -->
+                <div id="author-avatar">
+                    <img src="{{author.image}}" width="44px" height="44px" alt="Author Avatar">
                 </div>
-            </header>
+                <!-- Author Name & Date -->
+                <div>
+                    <strong>Viosey</strong>
+                    <span>10月 29, 2016</span>
+                </div>
+
+                <div class="section-spacer"></div>
+            </div>
+
+
 
             <section class="post-content" style="margin-top: 4em">
                 {{content}}
