@@ -728,7 +728,7 @@ body {
     transform-style: preserve-3d;
     opacity: 1;
     /*padding-right: 3em;*/
-    padding-left: 1em;
+    /*padding-left: 1em;*/
     padding-bottom: 3em;
     padding-top: 1em;
 }
@@ -1941,14 +1941,6 @@ body {
     .custom_title_img {
         border-top-left-radius: 0px;
         border-top-right-radius: 0px;
-    }
-
-    #push {
-        /*padding-right: 1em;*/
-        /*padding-left: 1em;*/
-        padding-left: 0.4em;
-        /*padding-bottom: 3em;*/
-        /*padding-top: 1em;*/
     }
 
     .post .post-header {
