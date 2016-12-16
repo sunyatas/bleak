@@ -591,6 +591,10 @@ body {
     float: left;
 }
 
+.custom_header{
+    margin-left: 1em;
+}
+
 .post-author{
     text-decoration: underline;
 }
@@ -1941,6 +1945,10 @@ body {
     .custom_title_img {
         border-top-left-radius: 0px;
         border-top-right-radius: 0px;
+    }
+
+    .custom_header{
+        margin-left: 0.5em;
     }
 
     .post .post-header {
