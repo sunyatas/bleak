@@ -29,13 +29,23 @@
 
         <div id="push">
 
-            <header class="post-header">
-				<span class="post-meta">
-					<span class="post-author">{{author}}</span> | <span class="post-date">{{date format="DD MMM YYYY"}} <span class="post-reading-time">| <span class="estimated-reading-time"></span> (<span class="word-count"></span> words)</span></span>
-				</span>
-                <div class="clear"></div>
-                <h1 class="post-title">{{{title}}}</h1>
-            </header>
+            <!--<header class="post-header">-->
+				<!--<span class="post-meta">-->
+					<!--<span class="post-author">{{author}}</span> | <span class="post-date">{{date format="DD MMM YYYY"}} <span class="post-reading-time">| <span class="estimated-reading-time"></span> (<span class="word-count"></span> words)</span></span>-->
+				<!--</span>-->
+                <!--<div class="clear"></div>-->
+                <!--<h1 class="post-title">{{{title}}}</h1>-->
+            <!--</header>-->
+
+            <div class="custom_author_icon">
+                <img class="custom_author_icon" src="{{author.image}}"/>
+
+            </div>
+            <div class="custom_title_info">
+                <span class="post-author">{{author}}</span>
+                <span style="color: #676767; font-size: 12px;">{{date format="YYYY MMMDD HH:mm"}}</span>
+            </div>
+
 
             <section class="post-content">
                 {{content}}
