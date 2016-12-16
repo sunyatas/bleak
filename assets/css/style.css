@@ -595,6 +595,10 @@ body {
     text-decoration: underline;
 }
 
+.post-content{
+    margin-top: 2em;
+}
+
 
 #wrapper {
     position: relative;
