@@ -314,7 +314,9 @@ blockquote * {
 }
 
 blockquote *:first-child {
-    margin-top: 0
+    margin-top: 0;
+    word-wrap:break-word;
+    word-break: break-all;
 }
 
 blockquote *:last-child {
