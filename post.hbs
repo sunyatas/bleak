@@ -32,15 +32,21 @@
         <div id="push">
 
             <header class="post-header">
-				<span class="post-meta">
-                    <span ><img class="custom_author_icon" src="{{author.image}}"></span>
+				<!--<span class="post-meta">-->
+                    <!--<span ><img class="custom_author_icon" src="{{author.image}}"></span>-->
 
-                    <span class="post-author">{{author}}</span> |
-                    <span class="post-date">{{date format="YYYY MMMDD HH:mm"}}</span>
-                    <h1 class="post-title"></h1>
+                    <!--<span class="post-author">{{author}}</span> |-->
+                    <!--<span class="post-date">{{date format="YYYY MMMDD HH:mm"}}</span>-->
+                    <!--<h1 class="post-title"></h1>-->
 
-				</span>
-                <div class="clear"></div>
+				<!--</span>-->
+                <!--<div class="clear"></div>-->
+
+                <div><img class="custom_author_icon" src="{{author.image}}"></div>
+                <div>
+                    <strong>{{author}}</strong>
+                    <span>{{date format="YYYY MMMDD HH:mm"}}</span>
+                </div>
             </header>
 
             <section class="post-content" style="margin-top: 4em">
