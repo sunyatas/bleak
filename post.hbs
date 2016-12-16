@@ -4,7 +4,28 @@
 
     <main class="content" role="main">
     <article class="{{post_class}}">
-    <div class="inner">
+    <div class="inner white_bg">
+
+
+
+    {{#if image}}
+            <div class="custom_title_img"
+                 style="background-image: url('{{image}}')">
+
+                <h1 class="custom_title_text" ;>
+                    {{{title}}}
+                </h1>
+            </div>
+    {{else}}
+            <div class="custom_title_img"
+                 style="background-image: url('http://7xwgdu.com1.z0.glb.clouddn.com/normal_bg.jpg')">
+
+                <h1 class="custom_title_text" ;>
+                    {{{title}}}
+                </h1>
+            </div>
+    {{/if}}
+
 
         <div id="push">
 
@@ -38,7 +59,6 @@
             </footer>
 
             <div class="comments">
-                <h2>你不说两句？？</h2>
                 <!-- 多说评论框 start -->
                 <div class="ds-thread" data-thread-key="{{id}}" data-title="{{title}}" data-url="http://4zen.top{{url}}"></div>
                 <!-- 多说评论框 end -->
