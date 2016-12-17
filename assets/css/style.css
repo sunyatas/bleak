@@ -1285,7 +1285,7 @@ body {
     width: 100%;
     height: auto;
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 
 .post .post-meta {
@@ -1293,7 +1293,9 @@ body {
     font-size: 0.75em;
     line-height: 1.334em;
     font-weight: 400;
-    margin-bottom: 1.334em
+    /*margin-bottom: 1.334em*/
+    margin-top: 0.4em;
+    margin-bottom: 1em;
 }
 
 .post .post-meta a {
