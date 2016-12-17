@@ -1556,7 +1556,7 @@ body {
     position: relative;
     margin: -2em -2em 0;
     overflow: hidden;
-    background: #36D995
+    /*background: #36D995*/
 }
 
 @media only screen and (max-width: 50em) {
