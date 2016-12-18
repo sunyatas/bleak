@@ -591,7 +591,7 @@ body {
     border: 2px solid white;
     display: inline-block;
     vertical-align: middle;
-    margin-right: 10px;
+    margin: auto;
     float: left;
 }
 
