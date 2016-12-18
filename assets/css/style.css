@@ -1623,7 +1623,8 @@ body {
 }
 
 .post-list .post .post-excerpt {
-    margin: 0
+    margin: 0;
+    word-break: break-all;
 }
 
 .post-list .post .post-more {
