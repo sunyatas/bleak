@@ -1994,7 +1994,7 @@ body {
 
     blockquote {
         margin: 2em 1em;
-        padding: 0 0em;
+        padding: 1em 0em 1em 0em;
     }
 
     iframe {
