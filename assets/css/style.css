@@ -212,14 +212,14 @@ h2 {
 h3 {
     font-size: 1.5em;
     line-height: 1.334em;
-    margin: 2em 2em 1em 2em;
+    margin: 2em 1.65em 1em 1.65em;
 }
 
 h4 {
     font-size: 1.25em;
     line-height: 1.2em;
     /*margin: 1.25em 0.5em 1.25em 0.5em;*/
-    margin: 1.25em 2.35em 1.25em 2.35em;
+    margin: 1.25em 2.2em 1.25em 2.2em;
 }
 
 p {
