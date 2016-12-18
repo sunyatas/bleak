@@ -478,7 +478,7 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
-    /*margin: 2.5em auto;*/
+    margin: 2.5em auto;
 }
 
 iframe {
@@ -571,6 +571,17 @@ body {
     font-weight: 400;
     color: #fafafa;
     text-shadow: 1px 1px 8px #444;
+}
+
+.custom_author_icon_div {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    float: left;
 }
 
 .custom_author_icon {
