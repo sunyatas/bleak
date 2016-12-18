@@ -482,7 +482,7 @@ img {
 }
 
 iframe {
-    margin: 1em auto
+    margin: 1em 2.5em;
 }
 
 .fluid-width-video-wrapper {
@@ -1998,7 +1998,7 @@ body {
     }
 
     iframe {
-        margin: 1em auto
+        margin: 1em 0.5em;
     }
 
 
