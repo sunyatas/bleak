@@ -299,12 +299,12 @@ hr {
 
 blockquote {
     margin: 2em 3em;
-    padding: 0 1em;
+    padding: 1em 1em;
     box-sizing: border-box;
-    border-left: 0.25em solid #ddd;
+    border-left: 0.25em solid #657b83;
     font-weight: 400;
     color: #737580;
-    background: transparent
+    background: #f6f6f6;
 }
 
 /*    font-style: italic;
