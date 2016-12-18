@@ -1997,6 +1997,10 @@ body {
         padding: 0 0em;
     }
 
+    iframe {
+        margin: 1em auto
+    }
+
 
     .post-footer {
         margin: 4em 1em;
