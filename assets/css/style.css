@@ -303,8 +303,8 @@ blockquote {
     box-sizing: border-box;
     border-left: 0.25em solid #657b83;
     font-weight: 400;
-    color: #737580;
-    /*background: #f6f6f6;*/
+    /*color: #737580;*/
+    background: #f6f6f6;
 }
 
 /*    font-style: italic;
