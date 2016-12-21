@@ -537,13 +537,13 @@ body {
 .push-prev {
 
   #push {
-    animation: pushPrev ease-in 0.5s forwards !important;
+    //animation: pushPrev ease-in 0.5s forwards !important;
   }
 }
 
 .pushed-prev {
   #push {
-    animation: pushedPrev ease-out 0.5s forwards;
+    //animation: pushedPrev ease-out 0.5s forwards;
   }
 }
 
