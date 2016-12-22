@@ -301,10 +301,10 @@ blockquote {
     margin: 2em 3em;
     padding: 1em 1em;
     box-sizing: border-box;
-    border-left: 0.25em solid #6c7c82;
+    border-left: 0.25em solid #a9a9a9;
     font-weight: 400;
     /*color: #737580;*/
-    background: #a9a9a9;
+    background: #f6f6f6;
 }
 
 /*    font-style: italic;
