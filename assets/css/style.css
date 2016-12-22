@@ -350,18 +350,19 @@ mark {
 code, tt {
     display: inline-block;
     position: relative;
-    top: -1px;
-    padding: 3px 6px;
-    margin: -1px 2px;
+    /*top: -1px;*/
+    padding: 2px;
+    margin: 1px;
     font-family: 'Inconsolata', monospace;
-    font-size: 0.875em;
+    font-size: medium;
     line-height: 1.143em;
     white-space: normal;
     word-break: break-all;
-    background: #E1E2E6;
+    background: #f1f1f1;
     color: #000;
     font-weight: 400;
-    border-radius: 2px
+    border-radius: 2px;
+    border: 1px solid #E1E1E1;
 }
 
 /*pre {*/
