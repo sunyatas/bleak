@@ -267,6 +267,7 @@ ol > li:before {
 
 ol, ul {
     padding-left: 4.5em;
+    padding-right: 4.5em;
     margin: 2em auto
 }
 
@@ -2006,6 +2007,7 @@ body {
     }
 
     ol, ul{
+        padding-left: 2.3em;
         padding-left: 2.3em;
     }
 
