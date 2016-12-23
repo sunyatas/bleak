@@ -266,7 +266,7 @@ ol > li:before {
 }
 
 ol, ul {
-    padding-left: 3em;
+    padding-left: 4.5em;
     margin: 2em auto
 }
 
@@ -2003,6 +2003,10 @@ body {
 
     iframe {
         margin: 1em 0.5em;
+    }
+
+    ol, ul{
+        padding-left: 2.3em;
     }
 
     .post-footer {
