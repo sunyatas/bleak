@@ -2011,6 +2011,11 @@ body {
         padding-right: 1.5em;
     }
 
+    img {
+        margin: 1em auto;
+    }
+
+
     .post-footer {
         margin: 4em 1em;
     }
