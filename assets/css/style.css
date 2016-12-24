@@ -553,6 +553,10 @@ body {
 .black_bg {
     background: #BCBEB9;
     padding-bottom: 99px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px #cccccc;
+    margin-top: 120px;
+    margin-bottom: 100px;
 
 }
 
