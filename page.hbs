@@ -8,7 +8,7 @@
     <article class="{{post_class}}">
 
         <!--<header class="post-header">-->
-            <!--<h1 class="post-title">{{{title}}}</h1>-->
+        <!--<h1 class="post-title">{{{title}}}</h1>-->
         <!--</header>-->
 
     {{#if image}}
@@ -28,6 +28,18 @@
                 </h1>
             </div>
     {{/if}}
+
+        <div class="custom_header">
+            <div class="custom_author_icon_div">
+                <img class="custom_author_icon" src="{{author.image}}"/>
+
+            </div>
+            <div class="custom_title_info">
+                <span class="post-author">{{author}}</span>
+                <span style="color: #676767; font-size: 12px;">{{date format="YYYY MMMDD HH:mm"}}</span>
+            </div>
+        </div>
+
 
         <section class="post-content">
             {{content}}
