@@ -557,7 +557,6 @@ body {
     box-shadow: 0px 0px 10px #cccccc;
     margin-top: 120px;
     margin-bottom: 100px;
-
 }
 
 .custom_title_img {
@@ -1963,6 +1962,11 @@ body {
     }
 
     .white_bg {
+        margin-top: 0px;
+        border-radius: 0px 0px 6px 6px;
+    }
+
+    .black_bg{
         margin-top: 0px;
         border-radius: 0px 0px 6px 6px;
     }
