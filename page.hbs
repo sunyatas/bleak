@@ -7,9 +7,27 @@
 
     <article class="{{post_class}}">
 
-        <header class="post-header">
-            <h1 class="post-title">{{{title}}}</h1>
-        </header>
+        <!--<header class="post-header">-->
+            <!--<h1 class="post-title">{{{title}}}</h1>-->
+        <!--</header>-->
+
+    {{#if image}}
+            <div class="custom_title_img"
+                 style="background-image: url('{{image}}')">
+
+                <h1 class="custom_title_text" ;>
+                    {{{title}}}
+                </h1>
+            </div>
+    {{else}}
+            <div class="custom_title_img"
+                 style="background-image: url('http://image.sunchen.cc/normal_title_bg.jpg')">
+
+                <h1 class="custom_title_text" ;>
+                    {{{title}}}
+                </h1>
+            </div>
+    {{/if}}
 
         <section class="post-content">
             {{content}}
