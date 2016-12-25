@@ -115,7 +115,7 @@ jQuery(function(a) {
     p = a("#ajax-container");
     return n.enabled ? (n.Adapter.bind(window, "statechange",
     function() {
-        // k.addClass("loading");
+        k.addClass("loading");
         var b = n.getState();
         a.get(b.url,
         function(b) {
@@ -134,7 +134,7 @@ jQuery(function(a) {
                 p.fadeIn(500),
                 a(document).scrollTop(0),
                 setTimeout(function() {
-                    // k.removeClass("loading")
+                    k.removeClass("loading")
                 },
                 50),
                 i(),

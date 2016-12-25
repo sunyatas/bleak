@@ -218,7 +218,7 @@ jQuery(function($) {
 	   ========================================================================== */
 
 	var History = window.History;
-	// var loading = false;
+	var loading = false;
 	var ajaxContainer = $('#ajax-container');
 
 	if (!History.enabled) {
@@ -226,7 +226,7 @@ jQuery(function($) {
 	}
 
 	History.Adapter.bind(window, 'statechange', function() {
-		// html.addClass('loading');
+		html.addClass('loading');
 		var State = History.getState();
 		$.get(State.url, function(result) {
 			var $html = $(result);
@@ -250,10 +250,10 @@ jQuery(function($) {
 				ajaxContainer.fadeIn(500);
 				$(document).scrollTop(0);
 				setTimeout(function() {
-					// html.removeClass('loading');
+					html.removeClass('loading');
 				}, 50);
 				reload();
-				// loading = false;
+				loading = false;
 			});
 		});
 	});
@@ -276,18 +276,18 @@ jQuery(function($) {
 			html.removeClass('pushed-prev');
 		}
 
-	    // if (loading === false) {
-			// var currentState = History.getState();
-			// var url = $(this).prop('href');
-			// var title = $(this).attr('title') || null;
-        //
-	    //     if (url.replace(/\/$/, "") !== currentState.url.replace(/\/$/ , "")) {
-			// 	loading = true;
-			// 	// html.addCla  ss('loading');
-			// 	NProgress.start();
-			// 	History.pushState({}, title, url);
-	    //     }
-	    // }
+	    if (loading === false) {
+			var currentState = History.getState();
+			var url = $(this).prop('href');
+			var title = $(this).attr('title') || null;
+
+	        if (url.replace(/\/$/, "") !== currentState.url.replace(/\/$/, "")) {
+				loading = true;
+				html.addClass('loading');
+				NProgress.start();
+				History.pushState({}, title, url);
+	        }
+	    }
 	});
 
 	$('body').on('click', '#post-index .post .js-ajax-link', function() {
