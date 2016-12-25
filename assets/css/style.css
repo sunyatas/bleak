@@ -849,11 +849,11 @@ body {
     margin: auto
 }
 
-.loading #nav {
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-    opacity: 0
-}
+/*.loading #nav {*/
+    /*-webkit-transform: translate3d(0, -100%, 0);*/
+    /*transform: translate3d(0, -100%, 0);*/
+    /*opacity: 0*/
+/*}*/
 
 #menu {
     display: none;
@@ -1280,11 +1280,11 @@ body {
     float: right
 }
 
-.loading #footer {
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
-    opacity: 0
-}
+/*.loading #footer {*/
+    /*-webkit-transform: translate3d(0, 100%, 0);*/
+    /*transform: translate3d(0, 100%, 0);*/
+    /*opacity: 0*/
+/*}*/
 
 .post {
     position: relative;
