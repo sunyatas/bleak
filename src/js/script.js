@@ -226,7 +226,7 @@ jQuery(function($) {
 	}
 
 	History.Adapter.bind(window, 'statechange', function() {
-		html.addClass('loading');
+		// html.addClass('loading');
 		var State = History.getState();
 		$.get(State.url, function(result) {
 			var $html = $(result);
@@ -250,7 +250,7 @@ jQuery(function($) {
 				ajaxContainer.fadeIn(500);
 				$(document).scrollTop(0);
 				setTimeout(function() {
-					html.removeClass('loading');
+					// html.removeClass('loading');
 				}, 50);
 				reload();
 				loading = false;
@@ -283,7 +283,7 @@ jQuery(function($) {
 
 	        if (url.replace(/\/$/, "") !== currentState.url.replace(/\/$/, "")) {
 				loading = true;
-				html.addClass('loading');
+				// html.addClass('loading');
 				NProgress.start();
 				History.pushState({}, title, url);
 	        }
