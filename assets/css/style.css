@@ -351,6 +351,7 @@ mark {
     border-radius: 3px;
     margin: 1px;
     border: 1px solid #E1E1E1;
+    word-break: break-all;
 }
 
 code, tt {
@@ -850,9 +851,9 @@ body {
 }
 
 /*.loading #nav {*/
-    /*-webkit-transform: translate3d(0, -100%, 0);*/
-    /*transform: translate3d(0, -100%, 0);*/
-    /*opacity: 0*/
+/*-webkit-transform: translate3d(0, -100%, 0);*/
+/*transform: translate3d(0, -100%, 0);*/
+/*opacity: 0*/
 /*}*/
 
 #menu {
@@ -1281,9 +1282,9 @@ body {
 }
 
 /*.loading #footer {*/
-    /*-webkit-transform: translate3d(0, 100%, 0);*/
-    /*transform: translate3d(0, 100%, 0);*/
-    /*opacity: 0*/
+/*-webkit-transform: translate3d(0, 100%, 0);*/
+/*transform: translate3d(0, 100%, 0);*/
+/*opacity: 0*/
 /*}*/
 
 .post {
@@ -1967,7 +1968,7 @@ body {
         border-radius: 0px 0px 6px 6px;
     }
 
-    .black_bg{
+    .black_bg {
         margin-top: 0px;
         border-radius: 0px 0px 6px 6px;
     }
@@ -2015,7 +2016,7 @@ body {
         margin: 1em 0.5em;
     }
 
-    ol, ul{
+    ol, ul {
         padding-left: 2.3em;
         padding-right: 1.5em;
     }
@@ -2023,7 +2024,6 @@ body {
     img {
         margin: 1em auto;
     }
-
 
     .post-footer {
         margin: 4em 1em;
