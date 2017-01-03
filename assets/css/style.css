@@ -387,7 +387,7 @@ code, tt {
 pre code, pre tt {
     position: static;
     top: auto;
-    font-size: 85%;
+    font-size: 95%;
     line-height: 1.5em;
     white-space: -moz-pre-wrap;
     white-space: pre-wrap;
@@ -2023,6 +2023,10 @@ body {
 
     img {
         margin: 1em auto;
+    }
+
+    pre code, pre tt {
+        font-size: 85%;
     }
 
     .post-footer {
