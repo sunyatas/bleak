@@ -387,7 +387,7 @@ code, tt {
 pre code, pre tt {
     position: static;
     top: auto;
-    font-size: 1em;
+    font-size: 85%;
     line-height: 1.5em;
     white-space: -moz-pre-wrap;
     white-space: pre-wrap;
